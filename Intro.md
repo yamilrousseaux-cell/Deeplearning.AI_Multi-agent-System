@@ -75,6 +75,50 @@ Y luego si enviarlos al equipo de ventas
 
 # Que son los agentes
 
+Los LLMs (Large Language Models, o Modelos de Lenguaje Grandes) son sistemas avanzados de Inteligencia Artificial (IA) entrenados con cantidades masivas de texto para entender, generar y manipular lenguaje humano natural.
+
+<img width="386" height="186" alt="image" src="https://github.com/user-attachments/assets/455eeecb-5f1d-4291-9ca2-62a58ce87234" />
+
+Con los llms tienes que darle feedback a travez de interacciones para asegurarte de los resultados entre el LLM y el usuario.
+
+LLMS - FEEDBACK - USUARIO   dependiendo la cantidad de feedback generamos mejor experiencia para el usuario 
+
+<img width="396" height="235" alt="image" src="https://github.com/user-attachments/assets/d89b7462-40e2-4371-9c62-76edf7df796a" />
+
+La forma que funcionan los agentes es desarmar el feedback en partes resolviendo problemas pequeños y dejar que el LLM trabaje de forma autonoma.
+
+Por lo que un agenete "nace" cuando el LLM entra en su proceso de pensamiento a lo largo del procedo de hacer preguntas y responderlas por el mismo hasta el punto de que puede seguir adelante y mejorar por si solo.
+
+<img width="235" height="296" alt="image" src="https://github.com/user-attachments/assets/3eb4e2b1-c34e-474e-8eff-b7056f8e048d" />
+
+El agente no te dara la primer respuesta sino que evaluara y optimizara el pensamiento que tenga para luego darte la respuesta. 
+Tambien tiene la capacidad de utilizar herramientas, que otros marcos llaman SKY o Capabilities pero lo que hara esto poderoso es que permite a tu agente interactuar con el mundo exterior. Como utilizar una API, postear algo o recopilar un dato clave.
+
+## Estructura Multi agente
+En vez de tener un solo agente, ahora podemos tener un agente que asigne a otro agente una tarea. Teniendo una respuesta final.
+
+<img width="246" height="266" alt="image" src="https://github.com/user-attachments/assets/97ca458a-446c-48fe-bb12-717d13ad1a27" />
+
+Como primer beneficio podemos ver que podemos customizar a los agentes teniendo una sola tarea.
+Como un agente Researcher que envie la informacion obtenida en busquedas a otro agente Escritor que genere un reporte. Tambien lo bueno es que podemos utilizar varios modelos para optimizar la respuesta.
+
+<img width="254" height="194" alt="image" src="https://github.com/user-attachments/assets/9d3a765c-86f5-49a2-8849-5bdc3c31867f" />
+
+## Que es Crew.Ai
+- Es un framework y una Plataforma
+- Rompe todos estos conceptos en simples estructuras
+- Provee un patron para juntar estos sistemas
+- Provee herramientas y skills listos para usar en agentes
+- Brinda un modelo para crear herramientas para personalizar agentes.
+- Ofrece una plataforma para brindar estos agentes en produccion.
+
+### Initial Building Blocks
+
+   AGENTES
+   TAREAS
+   CREWS
+
+
 
 
 
